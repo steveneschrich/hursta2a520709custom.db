@@ -7,6 +7,7 @@ clean:
 hursta2a520709custom.sqlite:
 	R CMD BATCH setup_package.R
 	mv hursta2a520709custom.db/* ..
-	rmdir hursta2a520709custom.db	hursta2a520709custom.sqlite
+	rmdir hursta2a520709custom.db
+	rm hursta2a520709custom.sqlite
 	
 	
